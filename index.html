@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Card</title>
+    <style>
+        :root{
+            --link_pic:"./human-man-10.svg" 
+        }
+        *{
+            margin: 0px;
+        }
+        main{
+            margin: auto;
+            max-width: 900px;
+            background-color: wheat;
+
+        }
+        .container{
+            display: flex;
+            padding: 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .card{
+            width: 200px;
+            height: auto;
+            background-color: white;
+            box-shadow: 2px 2px 5px grey;
+            text-align: center;
+            padding: 10px;
+            padding-top: 50px;
+            border-radius: 10px;
+            position: relative;
+            margin: 20px;
+        }
+        .card > img {
+            width: 100%;
+        }
+        .removeButton{
+            position: absolute;
+            top: 5px;
+            
+        }
+        .removeButton > a {
+            text-decoration: none;
+            color: grey;
+        }
+        .notiButton{
+            position: absolute;
+            top: -10px;
+            right: -20px;
+            
+            background-color: red;
+            width: 50px;
+            height: 50px;
+            color: white;
+            border-radius: 50%;
+        }
+        .notiButton > p{
+            height: 100%;
+            font-size: 40px;
+        }
+        p:nth-child(3){
+            padding: 10px;
+            /* color: red; */
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="card">
+                <img src="./human-man-10.svg" alt="pic_logo">
+                <hr>
+                <p>Name Something</p>
+                <div class="removeButton">
+                    <a href="#"><h1>X</h1></a>
+                    
+                </div>
+                <div class="notiButton">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./human-man-10.svg" alt="pic_logo">
+                <hr>
+                <p>Name Something</p>
+                <div class="removeButton">
+                    <a href="#"><h1>X</h1></a>
+                    
+                </div>
+                <div class="notiButton">
+                    <p>7</p>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="./human-man-10.svg" alt="pic_logo">
+                <hr>
+                <p>Name Something</p>
+                <div class="removeButton">
+                    <a href="#"><h1>X</h1></a>
+                    
+                </div>
+                <div class="notiButton">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./human-man-10.svg" alt="pic_logo">
+                <hr>
+                <p>Name Something</p>
+                <div class="removeButton">
+                    <a href="#"><h1>X</h1></a>
+                    
+                </div>
+                <div class="notiButton">
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./human-man-10.svg" alt="pic_logo">
+                <hr>
+                <p>Name Something</p>
+                <div class="removeButton">
+                    <a href="#"><h1>X</h1></a>
+                    
+                </div>
+                <div class="notiButton">
+                    <p>7</p>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+</body>
+
+</html>
